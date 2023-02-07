@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Form } from "react-bootstrap";
 import {testFunction} from "../api/test-modul"
-import {getTinhThanhPho} from "../api/testGetTinhThanhPho"
+import { getTinhThanhPho } from "../api/testGetTinhThanhPho";
 const AppTest =()=>{
 
     useEffect(()=>{

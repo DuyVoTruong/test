@@ -1,4 +1,4 @@
-const getTinhThanhPho =()=>{
+export const getTinhThanhPho =()=>{
     var citis = document.getElementById("city");
     var districts = document.getElementById("district");
     var wards = document.getElementById("ward");
@@ -37,8 +37,4 @@ const getTinhThanhPho =()=>{
             };
         }
     }
-}
-
-module.exports ={
-    getTinhThanhPho
 }
